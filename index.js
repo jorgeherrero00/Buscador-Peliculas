@@ -50,7 +50,7 @@ window.onload = () => {
 
     function loadPeliculas() {
         document.getElementById('cargando').style.display = 'block';
-        const link = `http://www.omdbapi.com/?apikey=${apiKey}&s=${currentInputValue}&page=${currentPage}&type=${currentType}`;
+        const link = `https://www.omdbapi.com/?apikey=${apiKey}&s=${currentInputValue}&page=${currentPage}&type=${currentType}`;
         var xhttp = new XMLHttpRequest();
         
         xhttp.onreadystatechange = function () {
