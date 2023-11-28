@@ -227,7 +227,7 @@ window.onload = () => {
         document.getElementById('cerrar-img').addEventListener('click', ()=>{
             document.getElementById('informes').style.display = 'none';
             document.getElementById('cerrar-img').style.display = 'none';
-            location.href="../index.html";
+            location.href="https://jorgeherrero00.github.io/Buscador-Peliculas/";
 
         });
 
